@@ -4,7 +4,7 @@ const chalk = require('chalk');
 require('dotenv').config();
 
 const BACKEND_URL = 'https://roblox-purchase-backend.vercel.app';
-const BRIDGE_SECRET = process.env.BRIDGE_SECRET || 'your-secret-here';
+const BRIDGE_SECRET = process.env.BRIDGE_SECRET || 'ALD30lckFOgSl429';
 
 console.log(chalk.cyan('🤖 Roblox Purchase Bridge Started'));
 console.log(chalk.gray(`📡 Backend: ${BACKEND_URL}`));
